@@ -276,9 +276,6 @@ endif
 PRODUCT_VENDOR_PROPERTIES += \
        vendor.zram.size=3g
 
-# Set support one-handed mode
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.support_one_handed_mode=false
 
 # Hinge angle sensor
 PRODUCT_COPY_FILES += \
