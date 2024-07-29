@@ -43,8 +43,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 TARGET_ENABLE_BLUR := true
 WITH_GMS := true
-TARGET_CORE_GMS := true
-TARGET_CORE_GMS_EXTRAS := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
 # Ship Pixel features (adaptivecharging, dreamliner etc)
 TARGET_ENABLE_PIXEL_FEATURES := true
