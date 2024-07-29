@@ -23,4 +23,5 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     aosp_felix-trunk_staging-userdebug \
-    rising_felix-user
+    lineage_felix-user \
+    lineage_felix-userdebug
