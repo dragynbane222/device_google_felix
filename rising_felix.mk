@@ -22,7 +22,7 @@ PRODUCT_BRAND := google
 PRODUCT_DEVICE := felix
 PRODUCT_MANUFACTURER := Google
 PRODUCT_MODEL := Pixel Fold
-PRODUCT_NAME := rising_felix
+PRODUCT_NAME := lineage_felix
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2092
