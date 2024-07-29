@@ -18,7 +18,9 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_felix.mk \
     $(LOCAL_DIR)/aosp_felix_hwasan.mk \
     $(LOCAL_DIR)/factory_felix.mk \
-    $(LOCAL_DIR)/lineage_felix.mk
+    $(LOCAL_DIR)/lineage_felix.mk \
+    $(LOCAL_DIR)/rising_felix.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_felix-trunk_staging-userdebug
+    aosp_felix-trunk_staging-userdebug \
+    rising_felix-user
