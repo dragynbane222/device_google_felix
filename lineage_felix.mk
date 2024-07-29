@@ -17,7 +17,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/window_extensions.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel Fold
-PRODUCT_NAME := lineage_felix
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2092
