@@ -51,3 +51,5 @@ TARGET_ENABLE_PIXEL_FEATURES := true
 
 # Use Google telephony framework
 TARGET_USE_GOOGLE_TELEPHONY := true
+
+RISING_PACKAGE_TYPE := "PIXEL
