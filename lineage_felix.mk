@@ -8,7 +8,6 @@
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-
 USE_SWIFTSHADER := true
 BOARD_USES_SWIFTSHADER := true
 
@@ -43,13 +42,24 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     RISING_CHIPSET="Google Tensor 2" \
     RISING_MAINTAINER="c_smith"
 
-TARGET_ENABLE_BLUR := true
+# Gms variables
 WITH_GMS := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
+# Set Pixel launcher as default launcher
+TARGET_PREBUILT_PIXEL_LAUNCHER := true
+
 # Ship Pixel features (adaptivecharging, dreamliner etc)
 TARGET_ENABLE_PIXEL_FEATURES := true
 
 # Use Google telephony framework
 TARGET_USE_GOOGLE_TELEPHONY := true
 
-RISING_PACKAGE_TYPE := "PIXEL
+# Ship Google Camera
+TARGET_PREBUILT_GOOGLE_CAMERA := true
+
+# Use gs101 hotword blobs
+TARGET_PREBUILT_HOTWORD := true
+TARGET_PREBUILT_HOTWORD_TYPE := tensor_zuma
+
+
+RISING_PACKAGE_TYPE := "PIXEL"
